@@ -27,7 +27,6 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-offlineFallback();
 
 //changed registerRoute to format shown in activity mini-project after recieving
 //'failed to register service worker' error. May have been the lack of inclusion of
